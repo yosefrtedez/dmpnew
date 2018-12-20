@@ -1,0 +1,32 @@
+unit UInputKategori;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Mask, RzEdit, RzButton, ExtCtrls, RzPanel, RzLabel;
+
+type
+  TFrm_InputKategori = class(TForm)
+    RzLabel1: TRzLabel;
+    RzLabel4: TRzLabel;
+    LID: TRzLabel;
+    RzPanel1: TRzPanel;
+    RzPanel2: TRzPanel;
+    BtSave: TRzBitBtn;
+    BtnExit: TRzBitBtn;
+    txtnama: TRzEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Frm_InputKategori: TFrm_InputKategori;
+
+implementation
+
+{$R *.dfm}
+
+end.
