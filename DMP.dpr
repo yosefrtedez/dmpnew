@@ -148,13 +148,13 @@ uses
   UDaftarFooter in 'UDaftarFooter.pas' {Frm_DaftarFooter},
   UDataKategori in 'UDataKategori.pas' {Frm_DataKategori},
   UInputKategori in 'UInputKategori.pas' {Frm_InputKategori},
-  UMenuProduksi in 'DMP\UMenuProduksi.pas' {Frm_MenuProduksi};
+  UMenuProduksi in 'DMP\UMenuProduksi.pas' {Frm_MenuProduksi},
+  UDaftarMesin in 'DMP\UDaftarMesin.pas' {Frm_DaftarMesin};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.CreateForm(TDM, DM);
-  Application.CreateForm(TFrm_MenuProduksi, Frm_MenuProduksi);
   Application.Run;
 end.

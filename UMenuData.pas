@@ -26,6 +26,7 @@ type
     RzToolButton2: TRzToolButton;
     RzToolButton3: TRzToolButton;
     RzLabel3: TRzLabel;
+    RzToolButton4: TRzToolButton;
     procedure BtnRekeningClick(Sender: TObject);
     procedure BtnSatuanClick(Sender: TObject);
     procedure BtnKontakClick(Sender: TObject);
@@ -43,6 +44,7 @@ type
     procedure RzLabel3MouseEnter(Sender: TObject);
     procedure RzLabel3MouseLeave(Sender: TObject);
     procedure RzLabel3Click(Sender: TObject);
+    procedure RzToolButton4Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -54,7 +56,8 @@ var
 
 implementation
 
-uses UDaftarAkun, UMain, UDM, UDaftarSatuan, UDaftarKontak, UDaftarBarang, UDaftarKelompokBarang, UDaftarGudang, UDaftarPajak, UDaftarPPh, UDaftarBarang1, UDaftarFooter;
+uses UDaftarAkun, UMain, UDM, UDaftarSatuan, UDaftarKontak, UDaftarBarang, UDaftarKelompokBarang, UDaftarGudang, UDaftarPajak, UDaftarPPh, UDaftarBarang1, UDaftarFooter,
+  UDaftarMesin;
 
 {$R *.dfm}
 
@@ -304,4 +307,24 @@ begin
   end;
 end;
 
+procedure TFrm_MenuData.RzToolButton4Click(Sender: TObject);
+var
+  f: TFrm_DaftarMesin;
+  ts: TcxTabSheet;
+begin
+  if DM.CekAkses(Frm_Main.txtuser.Caption,'Data6')=False then begin
+    MessageDlg('Anda tidak memiliki akses !',mtError,[mbOK],0);
+    Exit;
+  end;
+  if not DM.CekTabOpen('Data Mesin') then begin
+    f := TFrm_DaftarMesin.Create(Self);
+    f.RefreshQ;
+    f.ManualDock(Frm_Main.PGMain, Frm_Main.PGMain, alClient);
+    f.Show;
+
+    ts := (f.parent as TcxTabSheet);
+
+    Frm_Main.PGMain.ActivePage := ts;
+  end;
+end;
 end.

@@ -186,7 +186,7 @@ object Frm_MenuData: TFrm_MenuData
         OnClick = BtnMenuClick
       end
       object RzToolButton1: TRzToolButton
-        Left = 150
+        Left = 450
         Top = 0
         Width = 150
         Height = 110
@@ -228,6 +228,28 @@ object Frm_MenuData: TFrm_MenuData
         Font.Style = [fsBold]
         ParentFont = False
         OnClick = RzToolButton2Click
+      end
+      object RzToolButton4: TRzToolButton
+        Left = 150
+        Top = 0
+        Width = 150
+        Height = 110
+        ImageIndex = 37
+        Images = DM.I64
+        Layout = blGlyphTop
+        ShowCaption = True
+        UseToolbarButtonLayout = False
+        UseToolbarButtonSize = False
+        UseToolbarShowCaption = False
+        Align = alLeft
+        Caption = 'Data Mesin'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Calibri'
+        Font.Style = [fsBold]
+        ParentFont = False
+        OnClick = RzToolButton4Click
       end
     end
   end

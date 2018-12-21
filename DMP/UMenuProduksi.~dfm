@@ -3,7 +3,7 @@ object Frm_MenuProduksi: TFrm_MenuProduksi
   Top = 255
   Align = alClient
   BorderStyle = bsNone
-  Caption = 'Menu Data'
+  Caption = 'Produksi'
   ClientHeight = 636
   ClientWidth = 1289
   Color = clWhite
