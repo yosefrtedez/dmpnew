@@ -99,7 +99,7 @@ var
 implementation
 
 uses UMenuBukuBesar, UDM, UMenuKasBank, UMenuData, USettingDatabase, USQLExecutive, URestoreBackup, USettingBackup, UMenuPembelian, UAkunPenting,
-      UMenuPenjualan, UMenuPersediaan, ULogin, UUser, UMenuLaporan, UReminder, USetupPerusahaan, USaldoAwalAkun;
+      UMenuPenjualan, UMenuPersediaan, ULogin, UUser, UMenuLaporan, UReminder, USetupPerusahaan, USaldoAwalAkun, UMenuProduksi;
 
 {$R *.dfm}
 
@@ -873,12 +873,12 @@ end;
 
 procedure TFrm_Main.RzToolButton1Click(Sender: TObject);
 var
-  f: TFrm_MenuLaporan;
+  f: TFrm_MenuProduksi;
   ts: TcxTabSheet;
 begin
-  if not DM.CekTabOpen('Report') then begin
-    f := TFrm_MenuLaporan.Create(Self);
-    f.ClearText;
+  if not DM.CekTabOpen('Produksi') then begin
+    f := TFrm_MenuProduksi.Create(Self);
+    
     f.ManualDock(PGMain, PGMain, alClient);
     f.Show;
 

@@ -1,6 +1,8 @@
 object DM: TDM
   OldCreateOrder = False
   OnCreate = DataModuleCreate
+  Left = 369
+  Top = 134
   Height = 738
   Width = 1366
   object con: TZConnection

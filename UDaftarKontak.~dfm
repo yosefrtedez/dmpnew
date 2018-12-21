@@ -1,6 +1,6 @@
 object Frm_DaftarKontak: TFrm_DaftarKontak
-  Left = 195
-  Top = 118
+  Left = 274
+  Top = 166
   Align = alClient
   BorderStyle = bsNone
   Caption = 'Data Kontak'

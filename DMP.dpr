@@ -147,12 +147,14 @@ uses
   UInputFooter in 'UInputFooter.pas' {Frm_Footer},
   UDaftarFooter in 'UDaftarFooter.pas' {Frm_DaftarFooter},
   UDataKategori in 'UDataKategori.pas' {Frm_DataKategori},
-  UInputKategori in 'UInputKategori.pas' {Frm_InputKategori};
+  UInputKategori in 'UInputKategori.pas' {Frm_InputKategori},
+  UMenuProduksi in 'DMP\UMenuProduksi.pas' {Frm_MenuProduksi};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.CreateForm(TDM, DM);
+  Application.CreateForm(TFrm_MenuProduksi, Frm_MenuProduksi);
   Application.Run;
 end.
