@@ -1,36 +1,50 @@
 [Closed Files]
-File_0=SourceModule,'C:\Program Files (x86)\Borland\Delphi7\Component\ZEOSDBO-7.1.4-stable\src\dbc\ZDbcMySqlUtils.pas',0,1,418,42,423,0,0
-File_1=SourceModule,'D:\999 Tampungan\Avione\19122018\UMain.pas',0,1,1,35,15,1,0
-File_2=SourceModule,'D:\999 Tampungan\Avione\19122018\UDM.pas',0,1,1,1,1,0,0
-File_3=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unFrmLapUmum.pas',0,1,34,48,40,1,0
-File_4=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unDm.pas',0,1,28,49,13,1,0
-File_5=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unFrmInvoiceOrderJasa.pas',0,1,695,1,684,1,0
-File_6=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unFrmTplTrans.pas',0,1,1,1,1,0,0
-File_7=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unFrmUtama.pas',0,1,547,1,551,1,0
-File_8=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unAplikasi.pas',0,1,275,45,290,0,0
-File_9=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unFrmKoreksiBarang.pas',0,1,343,1,358,1,0
+File_0=SourceModule,'D:\999 Tampungan\Avione\19122018\UMain.pas',0,1,1,35,15,1,0
+File_1=SourceModule,'D:\999 Tampungan\Avione\19122018\UDM.pas',0,1,1,1,1,0,0
+File_2=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unFrmLapUmum.pas',0,1,34,48,40,1,0
+File_3=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unDm.pas',0,1,28,49,13,1,0
+File_4=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unFrmInvoiceOrderJasa.pas',0,1,695,1,684,1,0
+File_5=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unFrmTplTrans.pas',0,1,1,1,1,0,0
+File_6=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unFrmUtama.pas',0,1,547,1,551,1,0
+File_7=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unAplikasi.pas',0,1,275,45,290,0,0
+File_8=SourceModule,'D:\108 JSP\My Project\Bintang Timur\Source Code\unFrmKoreksiBarang.pas',0,1,343,1,358,1,0
 
 [Modules]
-Module0=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarKontak.pas
-Module1=C:\Users\Yosef\Documents\DevExpress VCL\ExpressLibrary\Sources\cxControls.pas
-Module2=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMain.pas
-Module3=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas
-Module4=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarBarang.pas
-Module5=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelianRequest.pas
+Module0=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas
+Module1=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UMenuProduksi.pas
+Module2=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuData.pas
+Module3=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UDaftarMesin.pas
+Module4=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMain.pas
+Module5=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelian.pas
 Module6=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPembelian.pas
-Module7=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPenjualanOrder.pas
-Module8=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPenjualan.pas
-Module9=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas
-Module10=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP.dpr
-Count=11
+Module7=C:\Program Files (x86)\Borland\Delphi7\Component\ZEOSDBO-7.1.4-stable\src\dbc\ZDbcMySqlUtils.pas
+Module8=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas
+Module9=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPenjualan.pas
+Module10=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPenjualanOrder.pas
+Module11=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelianRequest.pas
+Module12=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarBarang.pas
+Module13=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarKontak.pas
+Module14=C:\Users\Yosef\Documents\DevExpress VCL\ExpressLibrary\Sources\cxControls.pas
+Module15=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP.dpr
+Count=16
 EditWindowCount=1
 
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarKontak.pas]
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=1
 
-[C:\Users\Yosef\Documents\DevExpress VCL\ExpressLibrary\Sources\cxControls.pas]
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UMenuProduksi.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuData.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UDaftarMesin.pas]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
@@ -38,24 +52,29 @@ FormOnTop=0
 [D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMain.pas]
 ModuleType=SourceModule
 FormState=1
-FormOnTop=0
-
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas]
-ModuleType=SourceModule
-FormState=1
 FormOnTop=1
 
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarBarang.pas]
-ModuleType=SourceModule
-FormState=1
-FormOnTop=0
-
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelianRequest.pas]
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelian.pas]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=0
 
 [D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPembelian.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\Program Files (x86)\Borland\Delphi7\Component\ZEOSDBO-7.1.4-stable\src\dbc\ZDbcMySqlUtils.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPenjualan.pas]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=0
@@ -65,14 +84,24 @@ ModuleType=SourceModule
 FormState=1
 FormOnTop=1
 
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPenjualan.pas]
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelianRequest.pas]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=0
 
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas]
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarBarang.pas]
 ModuleType=SourceModule
 FormState=1
+FormOnTop=0
+
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarKontak.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\Users\Yosef\Documents\DevExpress VCL\ExpressLibrary\Sources\cxControls.pas]
+ModuleType=SourceModule
+FormState=0
 FormOnTop=0
 
 [D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP.dpr]
@@ -85,8 +114,8 @@ FormState=0
 FormOnTop=0
 
 [EditWindow0]
-ViewCount=11
-CurrentView=9
+ViewCount=16
+CurrentView=2
 View0=0
 View1=1
 View2=2
@@ -98,13 +127,18 @@ View7=7
 View8=8
 View9=9
 View10=10
+View11=11
+View12=12
+View13=13
+View14=14
+View15=15
 CodeExplorer=CodeExplorer@EditWindow0
 MessageView=MessageView@EditWindow0
 Create=1
 Visible=1
 State=0
-Left=422
-Top=178
+Left=452
+Top=320
 Width=1302
 Height=682
 MaxLeft=-1
@@ -115,9 +149,9 @@ LeftPanelSize=140
 LeftPanelClients=CodeExplorer@EditWindow0
 LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000000C000000436F64654578706C6F726572FFFFFFFF
 RightPanelSize=0
-BottomPanelSize=0
+BottomPanelSize=85
 BottomPanelClients=MessageView@EditWindow0
-BottomPanelData=00000400010000000B0000004D657373616765566965770605000000000000025500000000000000010000000000000000000000000100000000060500000B0000004D65737361676556696577FFFFFFFF
+BottomPanelData=0000040000000000060500000000000002550000000000000001000000000000000000000000010000000006050000000000000100000000060500000B0000004D65737361676556696577FFFFFFFF
 
 [View0]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP.dpr
@@ -128,68 +162,103 @@ LeftCol=1
 
 [View1]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMain.pas
-CursorX=36
-CursorY=880
-TopLine=874
+CursorX=17
+CursorY=874
+TopLine=869
 LeftCol=1
 
 [View2]
-Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas
-CursorX=23
-CursorY=13
-TopLine=1
+Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuData.pas
+CursorX=102
+CursorY=312
+TopLine=310
 LeftCol=1
 
 [View3]
+Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UDaftarMesin.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View4]
+Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UMenuProduksi.pas
+CursorX=17
+CursorY=97
+TopLine=85
+LeftCol=1
+
+[View5]
+Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas
+CursorX=1
+CursorY=554
+TopLine=551
+LeftCol=1
+
+[View6]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarBarang.pas
 CursorX=34
 CursorY=201
 TopLine=198
 LeftCol=1
 
-[View4]
+[View7]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas
 CursorX=18
 CursorY=156
 TopLine=143
 LeftCol=1
 
-[View5]
+[View8]
+Module=C:\Program Files (x86)\Borland\Delphi7\Component\ZEOSDBO-7.1.4-stable\src\dbc\ZDbcMySqlUtils.pas
+CursorX=28
+CursorY=434
+TopLine=418
+LeftCol=1
+
+[View9]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPenjualanOrder.pas
 CursorX=46
 CursorY=11
 TopLine=1
 LeftCol=1
 
-[View6]
+[View10]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPembelian.pas
 CursorX=1
-CursorY=74
-TopLine=69
+CursorY=118
+TopLine=113
 LeftCol=1
 
-[View7]
+[View11]
+Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelian.pas
+CursorX=108
+CursorY=665
+TopLine=658
+LeftCol=1
+
+[View12]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelianRequest.pas
 CursorX=106
 CursorY=13
 TopLine=1
 LeftCol=1
 
-[View8]
+[View13]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPenjualan.pas
 CursorX=115
 CursorY=116
 TopLine=106
 LeftCol=1
 
-[View9]
+[View14]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarKontak.pas
 CursorX=31
 CursorY=377
 TopLine=410
 LeftCol=1
 
-[View10]
+[View15]
 Module=C:\Users\Yosef\Documents\DevExpress VCL\ExpressLibrary\Sources\cxControls.pas
 CursorX=15
 CursorY=3393
@@ -229,7 +298,7 @@ Visible=1
 State=2
 Left=-8
 Top=0
-Width=1380
+Width=1928
 Height=123
 MaxLeft=-1
 MaxTop=-1
@@ -317,7 +386,7 @@ LRDockWidth=181
 Dockable=1
 SplitPos=131
 ArrangeBy=Name
-SelectedItem=OnClick
+SelectedItem=OnCreate
 ExpandedItems=BorderIcons,DataController,DataController.Summary,EditOptions,FilterRow,Font,Header,OptionsView,Properties,Summary,Value
 HiddenCategories=
 
@@ -400,18 +469,18 @@ State=0
 Left=0
 Top=12
 Width=140
-Height=631
+Height=543
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=140
-ClientHeight=631
+ClientHeight=543
 TBDockHeight=305
 LRDockWidth=140
 Dockable=1
 
 [MessageView@EditWindow0]
 Create=1
-Visible=0
+Visible=1
 State=0
 Left=12
 Top=0

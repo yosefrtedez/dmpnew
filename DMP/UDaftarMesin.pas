@@ -39,34 +39,11 @@ type
     BtnUpdate: TRzToolButton;
     dbgdataDBTableView1kodebarang: TcxGridDBColumn;
     dbgdataDBTableView1namabarang: TcxGridDBColumn;
-    dbgdataDBTableView1kodesatuan: TcxGridDBColumn;
-    dbgdataDBTableView1tersedia: TcxGridDBColumn;
     Q1: TZQuery;
-    BtnSaldo: TRzBitBtn;
     Q2: TZQuery;
-    QDatanobarang: TLargeintField;
-    QDatakodebarang: TStringField;
-    QDatanamabarang: TStringField;
-    QDatanokelompokbarang: TLargeintField;
-    QDatanosatuan: TLargeintField;
-    QDatahargajual: TFloatField;
-    QDatafaktor: TFloatField;
-    QDatatersedia: TFloatField;
-    QDatatotal: TLargeintField;
-    QDatakodesatuan: TStringField;
-    QDatakelompokbarang: TStringField;
-    dbgdataDBTableView1hargajual: TcxGridDBColumn;
-    dbgdataDBTableView1kelompokbarang: TcxGridDBColumn;
-    QDatatipe: TStringField;
-    dbgdataDBTableView1Column1: TcxGridDBColumn;
-    QDataaktif: TSmallintField;
-    dbgdataDBTableView1Column2: TcxGridDBColumn;
     BtnGudang: TRzToolButton;
     LGudang: TRzLabel;
     ATipe: TRzLabel;
-    QDatanogudang: TLargeintField;
-    QDatanamagudang: TStringField;
-    dbgdataDBTableView1namagudang: TcxGridDBColumn;
     procedure DBGDataDblClick(Sender: TObject);
     procedure BtnBaruClick(Sender: TObject);
     procedure BtnUbahClick(Sender: TObject);
@@ -90,7 +67,8 @@ var
 
 implementation
 
-uses UDM, UInputBarang, NxCells, UMenuData, UMain, RzCmboBx, UInputSaldoAwalBarang, UDataGudang;
+uses UDM, UInputBarang, NxCells, UMenuData, UMain, RzCmboBx, UInputSaldoAwalBarang, UDataGudang,
+  UInputMesin;
 
 {$R *.dfm}
 
@@ -151,6 +129,14 @@ procedure TFrm_DaftarMesin.BtnBaruClick(Sender: TObject);
 var
   nobarang,i:Integer;
 begin
+  Application.CreateForm(TFrm_InputMesin, Frm_InputMesin);
+  with Frm_InputMesin do begin
+    if ShowModal = mrok then begin
+
+    end;
+  end;
+  
+  {
   Application.CreateForm(TFrm_InputBarang, Frm_InputBarang);
   with Frm_InputBarang do begin
     ClearText;
@@ -201,6 +187,7 @@ begin
       RefreshQ;
     end;
   end;
+  }
 end;
 
 procedure TFrm_DaftarMesin.BtnUbahClick(Sender: TObject);

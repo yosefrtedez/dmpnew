@@ -19,12 +19,10 @@ type
     RzPanel4: TRzPanel;
     RzLabel1: TRzLabel;
     BtnRekening: TRzToolButton;
-    BtnSatuan: TRzToolButton;
     BtnMenu: TRzToolButton;
     RzLabel2: TRzLabel;
     RzToolButton1: TRzToolButton;
     RzToolButton2: TRzToolButton;
-    RzToolButton3: TRzToolButton;
     RzLabel3: TRzLabel;
     procedure BtnRekeningClick(Sender: TObject);
     procedure BtnSatuanClick(Sender: TObject);

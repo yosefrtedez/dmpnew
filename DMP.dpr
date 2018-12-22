@@ -149,7 +149,8 @@ uses
   UDataKategori in 'UDataKategori.pas' {Frm_DataKategori},
   UInputKategori in 'UInputKategori.pas' {Frm_InputKategori},
   UMenuProduksi in 'DMP\UMenuProduksi.pas' {Frm_MenuProduksi},
-  UDaftarMesin in 'DMP\UDaftarMesin.pas' {Frm_DaftarMesin};
+  UDaftarMesin in 'DMP\UDaftarMesin.pas' {Frm_DaftarMesin},
+  UInputMesin in 'DMP\UInputMesin.pas' {Frm_InputMesin};
 
 {$R *.res}
 

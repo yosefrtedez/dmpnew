@@ -56,7 +56,7 @@ object Frm_MenuProduksi: TFrm_MenuProduksi
         UseToolbarButtonSize = False
         UseToolbarShowCaption = False
         Align = alLeft
-        Caption = 'Data Barang'
+        Caption = 'Input Hasil Produksi'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -13
@@ -78,7 +78,7 @@ object Frm_MenuProduksi: TFrm_MenuProduksi
         UseToolbarButtonSize = False
         UseToolbarShowCaption = False
         Align = alLeft
-        Caption = 'Data Nama dan Alamat'
+        Caption = 'Master Order'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -13
@@ -100,7 +100,7 @@ object Frm_MenuProduksi: TFrm_MenuProduksi
         UseToolbarButtonSize = False
         UseToolbarShowCaption = False
         Align = alLeft
-        Caption = 'Data Akun'
+        Caption = 'Pengambilan Bahan Baku'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -13
@@ -108,50 +108,6 @@ object Frm_MenuProduksi: TFrm_MenuProduksi
         Font.Style = [fsBold]
         ParentFont = False
         OnClick = BtnRekeningClick
-      end
-      object BtnSatuan: TRzToolButton
-        Left = 600
-        Top = 0
-        Width = 150
-        Height = 110
-        ImageIndex = 4
-        Images = DM.I64
-        Layout = blGlyphTop
-        ShowCaption = True
-        UseToolbarButtonLayout = False
-        UseToolbarButtonSize = False
-        UseToolbarShowCaption = False
-        Align = alLeft
-        Caption = 'Satuan Pengukuran'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlack
-        Font.Height = -13
-        Font.Name = 'Calibri'
-        Font.Style = [fsBold]
-        ParentFont = False
-        OnClick = BtnSatuanClick
-      end
-      object RzToolButton3: TRzToolButton
-        Left = 450
-        Top = 0
-        Width = 150
-        Height = 110
-        ImageIndex = 2
-        Images = DM.I64
-        Layout = blGlyphTop
-        ShowCaption = True
-        UseToolbarButtonLayout = False
-        UseToolbarButtonSize = False
-        UseToolbarShowCaption = False
-        Align = alLeft
-        Caption = 'Data Barang (Detil Lokasi)'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlack
-        Font.Height = -13
-        Font.Name = 'Calibri'
-        Font.Style = [fsBold]
-        ParentFont = False
-        OnClick = RzToolButton3Click
       end
     end
     object RzPanel2: TRzPanel

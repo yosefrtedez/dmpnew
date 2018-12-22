@@ -1,10 +1,10 @@
 object Frm_DaftarMesin: TFrm_DaftarMesin
-  Left = 229
-  Top = 158
+  Left = 412
+  Top = 173
   Align = alClient
   BorderIcons = [biSystemMenu]
   BorderStyle = bsNone
-  Caption = 'Daftar Barang'
+  Caption = 'Daftar Mesin'
   ClientHeight = 594
   ClientWidth = 1126
   Color = clBtnFace
@@ -26,7 +26,7 @@ object Frm_DaftarMesin: TFrm_DaftarMesin
     Align = alTop
     Alignment = taLeftJustify
     BorderOuter = fsNone
-    Caption = 'Daftar Barang'
+    Caption = 'Daftar Mesin'
     Color = 16744448
     Font.Charset = ANSI_CHARSET
     Font.Color = clWhite
@@ -70,6 +70,7 @@ object Frm_DaftarMesin: TFrm_DaftarMesin
       Font.Name = 'Calibri'
       Font.Style = []
       ParentFont = False
+      Visible = False
       OnClick = BtnGudangClick
     end
     object LGudang: TRzLabel
@@ -141,62 +142,16 @@ object Frm_DaftarMesin: TFrm_DaftarMesin
         OptionsView.ColumnAutoWidth = True
         OptionsView.GridLines = glHorizontal
         object dbgdataDBTableView1kodebarang: TcxGridDBColumn
-          Caption = 'Kode Barang'
-          DataBinding.FieldName = 'kodebarang'
+          Caption = 'Kode '
+          DataBinding.FieldName = 'kode'
           HeaderAlignmentHorz = taCenter
           Width = 109
         end
         object dbgdataDBTableView1namabarang: TcxGridDBColumn
           Caption = 'Nama'
-          DataBinding.FieldName = 'namabarang'
+          DataBinding.FieldName = 'nama'
           HeaderAlignmentHorz = taCenter
           Width = 254
-        end
-        object dbgdataDBTableView1kelompokbarang: TcxGridDBColumn
-          Caption = 'Kelompok Barang'
-          DataBinding.FieldName = 'kelompokbarang'
-          HeaderAlignmentHorz = taCenter
-          Width = 151
-        end
-        object dbgdataDBTableView1namagudang: TcxGridDBColumn
-          Caption = 'Gudang'
-          DataBinding.FieldName = 'namagudang'
-          HeaderAlignmentHorz = taCenter
-          Width = 150
-        end
-        object dbgdataDBTableView1Column1: TcxGridDBColumn
-          Caption = 'Tipe'
-          DataBinding.FieldName = 'tipe'
-          HeaderAlignmentHorz = taCenter
-          Width = 118
-        end
-        object dbgdataDBTableView1tersedia: TcxGridDBColumn
-          Caption = 'Tersedia'
-          DataBinding.FieldName = 'total'
-          HeaderAlignmentHorz = taCenter
-          Width = 95
-        end
-        object dbgdataDBTableView1kodesatuan: TcxGridDBColumn
-          Caption = 'Unit'
-          DataBinding.FieldName = 'kodesatuan'
-          HeaderAlignmentHorz = taCenter
-          Width = 79
-        end
-        object dbgdataDBTableView1hargajual: TcxGridDBColumn
-          Caption = 'Harga Jual'
-          DataBinding.FieldName = 'hargajual'
-          HeaderAlignmentHorz = taCenter
-          Width = 96
-        end
-        object dbgdataDBTableView1Column2: TcxGridDBColumn
-          Caption = 'Aktif'
-          DataBinding.FieldName = 'aktif'
-          PropertiesClassName = 'TcxCheckBoxProperties'
-          Properties.Alignment = taCenter
-          Properties.ValueChecked = 1
-          Properties.ValueUnchecked = 0
-          HeaderAlignmentHorz = taCenter
-          Width = 72
         end
       end
       object dbgdataLevel1: TcxGridLevel
@@ -269,24 +224,8 @@ object Frm_DaftarMesin: TFrm_DaftarMesin
       Font.Name = 'Calibri'
       Font.Style = []
       ParentFont = False
-      TabOrder = 4
-      OnClick = BtnSelesaiClick
-    end
-    object BtnSaldo: TRzBitBtn
-      Left = 952
-      Top = 8
-      Width = 81
-      Anchors = [akTop, akRight]
-      Caption = 'Saldo Awal'
-      Color = 12615680
-      Font.Charset = ANSI_CHARSET
-      Font.Color = clWhite
-      Font.Height = -13
-      Font.Name = 'Calibri'
-      Font.Style = []
-      ParentFont = False
       TabOrder = 3
-      OnClick = BtnSaldoClick
+      OnClick = BtnSelesaiClick
     end
   end
   object DSData: TDataSource
@@ -296,112 +235,12 @@ object Frm_DaftarMesin: TFrm_DaftarMesin
   end
   object QData: TZQuery
     Connection = DM.con
+    Active = True
     SQL.Strings = (
-      'SELECT g.*,IFNULL(h.namagudang,'#39#39')AS namagudang FROM '
-      '(SELECT g.*,IFNULL(h.kelompokbarang,'#39#39')AS kelompokbarang FROM '
-      
-        '(SELECT c.*,CONCAT(d.kodesatuan,'#39'('#39',ROUND(c.faktor),'#39')'#39')AS kodes' +
-        'atuan FROM '
-      '(SELECT a.*,tersedia DIV faktor AS total FROM'
-      
-        '(SELECT g.*,IFNULL(SUM(h.masuk)-SUM(h.keluar),0)AS tersedia,IFNU' +
-        'LL(h.nogudang,0)AS nogudang FROM '
-      
-        '(SELECT nobarang,kodebarang,namabarang,nokelompokbarang,nosatuan' +
-        ',hargajual,1 AS faktor,case when tipebarang=0 then '#39'Persediaan'#39' ' +
-        'when tipebarang=1 then '#39'Non-Persediaan'#39'  end as tipe,aktif FROM ' +
-        'tbl_barang'
-      'UNION'
-      
-        'SELECT a.nobarang,a.kodebarang,a.namabarang,a.nokelompokbarang,b' +
-        '.nosatuan,a.hargajual,b.faktor,case when a.tipebarang=0 then '#39'Pe' +
-        'rsediaan'#39' when a.tipebarang=1 then '#39'Non-Persediaan'#39' end as tipe,' +
-        'aktif FROM'
-      
-        '(SELECT nobarang,kodebarang,namabarang,nokelompokbarang,hargajua' +
-        'l,tipebarang,aktif FROM tbl_barang)AS a'
-      'LEFT JOIN tbl_barangharga AS b ON b.nobarang=a.nobarang '
-      'WHERE nosatuan IS NOT NULL ORDER BY nobarang,faktor)AS g'
-      
-        'LEFT JOIN tbl_bukubesarbarang AS h ON h.nobarang=g.nobarang GROU' +
-        'P BY g.nobarang,h.nogudang,g.nosatuan,g.faktor)AS a)AS c '
-      'LEFT JOIN tbl_satuan AS d ON d.nosatuan=c.nosatuan)AS g '
-      
-        'LEFT JOIN tbl_kelompokbarang AS h ON h.nokelompokbarang=g.nokelo' +
-        'mpokbarang)as g '
-      'LEFT JOIN tbl_gudang AS h ON h.nogudang=g.nogudang '
-      'ORDER BY g.namabarang')
+      'SELECT * FROM tbl_mesin')
     Params = <>
     Left = 384
     Top = 260
-    object QDatanobarang: TLargeintField
-      FieldName = 'nobarang'
-      ReadOnly = True
-    end
-    object QDatakodebarang: TStringField
-      FieldName = 'kodebarang'
-      ReadOnly = True
-      Size = 15
-    end
-    object QDatanamabarang: TStringField
-      FieldName = 'namabarang'
-      ReadOnly = True
-      Size = 100
-    end
-    object QDatanokelompokbarang: TLargeintField
-      FieldName = 'nokelompokbarang'
-      ReadOnly = True
-    end
-    object QDatanosatuan: TLargeintField
-      FieldName = 'nosatuan'
-      ReadOnly = True
-    end
-    object QDatahargajual: TFloatField
-      FieldName = 'hargajual'
-      ReadOnly = True
-      DisplayFormat = '#,#0.##'
-    end
-    object QDatafaktor: TFloatField
-      FieldName = 'faktor'
-      ReadOnly = True
-    end
-    object QDatatersedia: TFloatField
-      FieldName = 'tersedia'
-      ReadOnly = True
-      DisplayFormat = '#,#0.##'
-    end
-    object QDatatotal: TLargeintField
-      FieldName = 'total'
-      ReadOnly = True
-      DisplayFormat = '#,#0.##'
-    end
-    object QDatakodesatuan: TStringField
-      FieldName = 'kodesatuan'
-      ReadOnly = True
-      Size = 62
-    end
-    object QDatakelompokbarang: TStringField
-      FieldName = 'kelompokbarang'
-      ReadOnly = True
-      Size = 100
-    end
-    object QDatatipe: TStringField
-      FieldName = 'tipe'
-      ReadOnly = True
-      Size = 14
-    end
-    object QDataaktif: TSmallintField
-      FieldName = 'aktif'
-    end
-    object QDatanogudang: TLargeintField
-      FieldName = 'nogudang'
-      ReadOnly = True
-    end
-    object QDatanamagudang: TStringField
-      FieldName = 'namagudang'
-      ReadOnly = True
-      Size = 50
-    end
   end
   object Q1: TZQuery
     Connection = DM.con

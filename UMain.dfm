@@ -856,7 +856,7 @@ object Frm_Main: TFrm_Main
       object RzToolButton1: TRzToolButton
         Left = 566
         Top = 4
-        ImageIndex = 4
+        ImageIndex = 8
         Images = DM.I48
         Layout = blGlyphTop
         Caption = 'Produksi'

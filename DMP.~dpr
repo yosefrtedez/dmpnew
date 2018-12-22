@@ -149,14 +149,14 @@ uses
   UDataKategori in 'UDataKategori.pas' {Frm_DataKategori},
   UInputKategori in 'UInputKategori.pas' {Frm_InputKategori},
   UMenuProduksi in 'DMP\UMenuProduksi.pas' {Frm_MenuProduksi},
-  UDaftarMesin in 'DMP\UDaftarMesin.pas' {Frm_DaftarMesin};
+  UDaftarMesin in 'DMP\UDaftarMesin.pas' {Frm_DaftarMesin},
+  UInputMesin in 'DMP\UInputMesin.pas' {Frm_InputMesin};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.CreateForm(TDM, DM);
-  Application.CreateForm(TFrm_MenuProduksi, Frm_MenuProduksi);
-  Application.CreateForm(TFrm_DaftarMesin, Frm_DaftarMesin);
+  Application.CreateForm(TFrm_InputMesin, Frm_InputMesin);
   Application.Run;
 end.

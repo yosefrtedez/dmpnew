@@ -1,6 +1,6 @@
 object Frm_MenuData: TFrm_MenuData
-  Left = 127
-  Top = 47
+  Left = 392
+  Top = 151
   Align = alClient
   BorderStyle = bsNone
   Caption = 'Menu Data'
@@ -234,8 +234,8 @@ object Frm_MenuData: TFrm_MenuData
         Top = 0
         Width = 150
         Height = 110
-        ImageIndex = 37
-        Images = DM.I64
+        ImageIndex = 9
+        Images = DM.I48
         Layout = blGlyphTop
         ShowCaption = True
         UseToolbarButtonLayout = False
