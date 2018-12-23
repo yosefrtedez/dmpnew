@@ -83,6 +83,7 @@ type
     NxNumberColumn623: TNxNumberColumn6;
     NxNumberColumn624: TNxNumberColumn6;
     dtpfaktur: TcxDateEdit;
+    dtppo: TcxDateEdit;
     procedure txtsupplierButtonClick(Sender: TObject);
     procedure BtnBatalClick(Sender: TObject);
     procedure dbgbarangAfterEdit(Sender: TObject; ACol, ARow: Integer;
@@ -223,6 +224,11 @@ begin
   if LPO.Caption = '0' then begin
     MessageDlg('No. PO : belum dipilih !',mtError,[mbOK],0);
     txtpo.SetFocus;
+    Exit;
+  end;
+  if dtpfaktur.Date < dtppo.Date then begin
+    MessageDlg('Tanggal penerimaan pembelian tidak boleh sebelum tanggal PO !',mtError,[mbOK],0);
+    dtpfaktur.Date := dtppo.Date;
     Exit;
   end;
   with dbgbarang do begin
@@ -592,6 +598,7 @@ begin
         end;
         txtpo.Text := Frm_DataPembelianOrder.QData.FieldValues['kodepembelianorder'];
         LPO.Caption := Frm_DataPembelianOrder.QData.FieldValues['nopembelianorder'];
+        dtppo.Date := Frm_DataPembelianOrder.QData.FieldValues['tgltransaksi'];
         with TZQuery.Create(Self)do begin
           Connection := DM.con;
           Close;

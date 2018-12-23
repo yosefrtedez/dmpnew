@@ -1,6 +1,6 @@
 object Frm_PembelianRequest: TFrm_PembelianRequest
-  Left = 169
-  Top = 82
+  Left = 422
+  Top = 190
   Align = alClient
   BorderStyle = bsNone
   Caption = 'Permintaan Pembelian'
@@ -433,6 +433,7 @@ object Frm_PembelianRequest: TFrm_PembelianRequest
         object NxDateColumn61: TNxDateColumn6
           AutoEditing = True
           Editing = True
+          EmptyCaption = '-'
           FilterEnabled = True
           Font.Charset = ANSI_CHARSET
           Font.Color = clWindowText

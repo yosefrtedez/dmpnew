@@ -305,6 +305,7 @@ type
     Rpt_PersediaanSemua: TfrxReport;
     frxDBDataset14: TfrxDBDataset;
     QPersediaanSemua: TZQuery;
+    Nota_PenjualanDO_DMP: TfrxReport;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }

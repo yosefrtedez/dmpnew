@@ -1,8 +1,8 @@
 object DM: TDM
   OldCreateOrder = False
   OnCreate = DataModuleCreate
-  Left = 369
-  Top = 134
+  Left = 417
+  Top = 149
   Height = 738
   Width = 1366
   object con: TZConnection
@@ -26,7 +26,7 @@ object DM: TDM
     Left = 73
     Top = 8
     Bitmap = {
-      494C01010A000F00040030003000FFFFFFFFFF00FFFFFFFFFFFFFFFF424D3600
+      494C01010A000F00040030003000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000C0000000C000000001002000000000000040
       0200000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
@@ -4782,7 +4782,8 @@ object DM: TDM
       FFFFFFFFFFFFE0000000FF80000001FFFFFFFFFFF83FFFFFFFFFFFFFFFFFE000
       0000FFE0000007FFFFFFFFFFF83FFFFFFFFFFFFFFFFFF8000003FFF000000FFF
       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00000FFFFC00003FFFFFFFFFFFFFFFFFFF
-      FFFFFFFFFFFFFFE000FFFFFF8001FFFF}
+      FFFFFFFFFFFFFFE000FFFFFF8001FFFF00000000000000000000000000000000
+      000000000000}
   end
   object I64: TImageList
     Height = 64
@@ -82239,5 +82240,453 @@ object DM: TDM
         Name = 'tks'
         ParamType = ptUnknown
       end>
+  end
+  object Nota_PenjualanDO_DMP: TfrxReport
+    Version = '5.2.3'
+    DotMatrixReport = False
+    IniFile = '\Software\Fast Reports'
+    PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
+    PreviewOptions.Zoom = 1.000000000000000000
+    PrintOptions.Printer = 'Default'
+    PrintOptions.PrintOnSheet = 0
+    ReportOptions.CreateDate = 41610.060695381900000000
+    ReportOptions.LastChange = 41610.060695381900000000
+    ScriptLanguage = 'PascalScript'
+    ScriptText.Strings = (
+      'begin'
+      ''
+      'end.')
+    Left = 928
+    Top = 482
+    Datasets = <
+      item
+        DataSet = DS_NotaPenjualanDO
+        DataSetName = 'DS_NotaPenjualanDO'
+      end
+      item
+        DataSet = DSPerusahaan
+        DataSetName = 'DSPerusahaan'
+      end>
+    Variables = <>
+    Style = <>
+    object Data: TfrxDataPage
+      Height = 1000.000000000000000000
+      Width = 1000.000000000000000000
+    end
+    object Page2: TfrxReportPage
+      PaperWidth = 210.000000000000000000
+      PaperHeight = 138.000000000000000000
+      PaperSize = 256
+      LeftMargin = 5.000000000000000000
+      RightMargin = 5.000000000000000000
+      TopMargin = 5.000000000000000000
+      BottomMargin = 5.000000000000000000
+      object ReportTitle2: TfrxReportTitle
+        FillType = ftBrush
+        Height = 143.622140000000000000
+        Top = 18.897650000000000000
+        Width = 755.906000000000000000
+        object Memo1: TfrxMemoView
+          Left = 468.661720000000000000
+          Top = 3.779530000000000000
+          Width = 283.464750000000000000
+          Height = 30.236222910000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -21
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          Frame.Width = 2.000000000000000000
+          Memo.UTF8 = (
+            'Surat Pengeluaran Barang')
+          ParentFont = False
+        end
+        object Memo3: TfrxMemoView
+          Left = 468.661720000000000000
+          Top = 37.795300000000000000
+          Width = 132.283550000000000000
+          Height = 15.118107800000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+          Memo.UTF8 = (
+            'Tanggal')
+          ParentFont = False
+        end
+        object Memo4: TfrxMemoView
+          Left = 510.236550000000000000
+          Top = 52.913420000000000000
+          Width = 90.708720000000000000
+          Height = 15.118107800000000000
+          DisplayFormat.FormatStr = 'dd MMM yyyy'
+          DisplayFormat.Kind = fkDateTime
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+          Memo.UTF8 = (
+            '[DS_NotaPenjualanDO."tglpenjualankirim"]')
+          ParentFont = False
+        end
+        object Memo5: TfrxMemoView
+          Left = 600.945270000000000000
+          Top = 37.795300000000000000
+          Width = 151.181200000000000000
+          Height = 15.118107800000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+          Memo.UTF8 = (
+            'No. Referensi')
+          ParentFont = False
+        end
+        object Memo6: TfrxMemoView
+          Left = 642.520100000000000000
+          Top = 52.913420000000000000
+          Width = 109.606370000000000000
+          Height = 15.118107800000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+          Memo.UTF8 = (
+            '[DS_NotaPenjualanDO."kodepenjualankirim"]')
+          ParentFont = False
+        end
+        object Shape2: TfrxShapeView
+          Left = 468.661720000000000000
+          Top = 37.795300000000000000
+          Width = 283.464750000000000000
+          Height = 30.236240000000000000
+          Shape = skRoundRectangle
+        end
+        object Line1: TfrxLineView
+          Left = 600.945270000000000000
+          Top = 37.795300000000000000
+          Height = 30.236240000000000000
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+        end
+        object Memo10: TfrxMemoView
+          Left = 7.559060000000000000
+          Top = 90.708720000000000000
+          Width = 68.031540000000000000
+          Height = 18.897650000000000000
+          Memo.UTF8 = (
+            'Customer :')
+        end
+        object Memo11: TfrxMemoView
+          Left = 75.590600000000000000
+          Top = 109.606370000000000000
+          Width = 377.953000000000000000
+          Height = 30.236222910000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Style = fsSquare
+          Memo.UTF8 = (
+            
+              '[DS_NotaPenjualanDO."alamat1kontak"] [DS_NotaPenjualanDO."alamat' +
+              '2kontak"]'
+            '[DS_NotaPenjualanDO."kotakontak"]')
+          ParentFont = False
+          Formats = <
+            item
+            end
+            item
+            end
+            item
+            end>
+        end
+        object Memo12: TfrxMemoView
+          Left = 75.590600000000000000
+          Top = 90.708720000000000000
+          Width = 377.953000000000000000
+          Height = 18.897632910000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          Frame.Style = fsDot
+          Memo.UTF8 = (
+            '[DS_NotaPenjualanDO."namakontak"]')
+          ParentFont = False
+        end
+        object Shape4: TfrxShapeView
+          Left = 75.590600000000000000
+          Top = 90.708720000000000000
+          Width = 377.953000000000000000
+          Height = 49.133890000000000000
+          Shape = skRoundRectangle
+        end
+        object Memo7: TfrxMemoView
+          Left = 113.385900000000000000
+          Top = 7.559060000000000000
+          Width = 340.157700000000000000
+          Height = 18.897632910000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          Frame.Style = fsDot
+          Frame.Typ = [ftBottom]
+          Memo.UTF8 = (
+            '[DSPerusahaan."nama"]')
+          ParentFont = False
+          Formats = <
+            item
+            end
+            item
+              FormatStr = 'dd MMM yyyy'
+              Kind = fkDateTime
+            end>
+        end
+        object Shape1: TfrxShapeView
+          Left = 113.385900000000000000
+          Top = 3.779530000000000000
+          Width = 340.157700000000000000
+          Height = 83.149660000000000000
+          Shape = skRoundRectangle
+        end
+        object Memo2: TfrxMemoView
+          Left = 113.385900000000000000
+          Top = 26.456710000000000000
+          Width = 340.157700000000000000
+          Height = 60.472462910000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Style = fsSquare
+          Memo.UTF8 = (
+            '[DSPerusahaan."alamat"]'
+            '[DSPerusahaan."kota"] [DSPerusahaan."kodepos"]'
+            '[DSPerusahaan."telp"]')
+          ParentFont = False
+          Formats = <
+            item
+            end
+            item
+            end>
+        end
+        object Picture1: TfrxPictureView
+          Left = 3.779530000000000000
+          Top = 3.779530000000000000
+          Width = 102.047310000000000000
+          Height = 83.149660000000000000
+          Center = True
+          DataField = 'filefoto'
+          DataSet = DSPerusahaan
+          DataSetName = 'DSPerusahaan'
+          HightQuality = False
+          Transparent = False
+          TransparentColor = clWhite
+        end
+      end
+      object GroupHeader2: TfrxGroupHeader
+        FillType = ftBrush
+        Height = 18.897637800000000000
+        Top = 222.992270000000000000
+        Width = 755.906000000000000000
+        Condition = 'DS_NotaPenjualanDO."nopenjualankirim"'
+        object Memo45: TfrxMemoView
+          Width = 113.385900000000000000
+          Height = 18.897637800000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
+          Memo.UTF8 = (
+            'Kode')
+          ParentFont = False
+        end
+        object Memo21: TfrxMemoView
+          Left = 642.520100000000000000
+          Width = 109.606321180000000000
+          Height = 18.897637800000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
+          Memo.UTF8 = (
+            'Qty')
+          ParentFont = False
+        end
+        object Memo23: TfrxMemoView
+          Left = 113.385900000000000000
+          Width = 529.134200000000000000
+          Height = 18.897637800000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
+          Memo.UTF8 = (
+            'Barang')
+          ParentFont = False
+        end
+      end
+      object MasterData2: TfrxMasterData
+        FillType = ftBrush
+        Height = 18.897637800000000000
+        Top = 264.567100000000000000
+        Width = 755.906000000000000000
+        DataSet = DS_NotaPenjualanDO
+        DataSetName = 'DS_NotaPenjualanDO'
+        RowCount = 0
+        Stretched = True
+        object Memo27: TfrxMemoView
+          Left = 642.520100000000000000
+          Width = 109.606370000000000000
+          Height = 18.897637800000000000
+          StretchMode = smMaxHeight
+          DataSet = DS_NotaPembelianPO
+          DataSetName = 'DS_NotaPembelianPO'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftLeft, ftRight]
+          HAlign = haRight
+          Memo.UTF8 = (
+            '[DS_NotaPenjualanDO."qty"] [DS_NotaPenjualanDO."kodesatuan"] ')
+          ParentFont = False
+          Formats = <
+            item
+              FormatStr = '#,#0.##'
+              Kind = fkNumeric
+            end
+            item
+            end
+            item
+            end>
+        end
+        object Memo59: TfrxMemoView
+          Width = 113.385900000000000000
+          Height = 18.897637800000000000
+          StretchMode = smMaxHeight
+          DataField = 'kodebarang'
+          DataSet = DS_NotaPenjualanDO
+          DataSetName = 'DS_NotaPenjualanDO'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftLeft, ftRight]
+          Memo.UTF8 = (
+            '[DS_NotaPenjualanDO."kodebarang"]')
+          ParentFont = False
+        end
+        object Memo31: TfrxMemoView
+          Left = 113.385900000000000000
+          Width = 529.134200000000000000
+          Height = 18.897637800000000000
+          StretchMode = smMaxHeight
+          DataField = 'namabarang'
+          DataSet = DS_NotaPenjualanDO
+          DataSetName = 'DS_NotaPenjualanDO'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftLeft, ftRight]
+          Memo.UTF8 = (
+            '[DS_NotaPenjualanDO."namabarang"]')
+          ParentFont = False
+        end
+      end
+      object GroupFooter2: TfrxGroupFooter
+        FillType = ftBrush
+        Height = 3.779517800000000000
+        Top = 306.141930000000000000
+        Width = 755.906000000000000000
+        Stretched = True
+        object Memo34: TfrxMemoView
+          Align = baWidth
+          Width = 755.906000000000000000
+          Height = 3.779512910000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftTop]
+          ParentFont = False
+        end
+      end
+      object ReportSummary1: TfrxReportSummary
+        FillType = ftBrush
+        Height = 113.385900000000000000
+        Top = 370.393940000000000000
+        Width = 755.906000000000000000
+        object Memo13: TfrxMemoView
+          Left = 11.338590000000000000
+          Width = 90.708720000000000000
+          Height = 18.897650000000000000
+          Memo.UTF8 = (
+            'Dibuat Oleh,')
+        end
+        object Memo14: TfrxMemoView
+          Left = 196.535560000000000000
+          Width = 102.047310000000000000
+          Height = 18.897650000000000000
+          Memo.UTF8 = (
+            'Disetujui Oleh,')
+        end
+        object Memo8: TfrxMemoView
+          Left = 11.338590000000000000
+          Top = 94.488250000000000000
+          Width = 151.181200000000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftTop]
+          Memo.UTF8 = (
+            'Departemen :')
+          ParentFont = False
+        end
+        object Memo9: TfrxMemoView
+          Left = 200.315090000000000000
+          Top = 94.488250000000000000
+          Width = 151.181200000000000000
+          Height = 18.897650000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftTop]
+          Memo.UTF8 = (
+            'Departemen :')
+          ParentFont = False
+        end
+      end
+    end
   end
 end

@@ -220,7 +220,7 @@ object Frm_Pembelian: TFrm_Pembelian
         Font.Name = 'Calibri'
         Font.Style = []
         ParentFont = False
-        TabOrder = 4
+        TabOrder = 5
       end
       object dtpfaktur: TcxDateEdit
         Left = 616
@@ -254,7 +254,7 @@ object Frm_Pembelian: TFrm_Pembelian
         Style.Font.Name = 'Calibri'
         Style.Font.Style = []
         Style.IsFontAssigned = True
-        TabOrder = 5
+        TabOrder = 4
         Visible = False
         Width = 137
       end
@@ -282,7 +282,7 @@ object Frm_Pembelian: TFrm_Pembelian
         Font.Name = 'Calibri'
         Font.Style = []
         ParentFont = False
-        TabOrder = 0
+        TabOrder = 1
         OnClick = BtnRekamClick
       end
       object BtnBatal: TRzBitBtn
@@ -297,7 +297,7 @@ object Frm_Pembelian: TFrm_Pembelian
         Font.Name = 'Calibri'
         Font.Style = []
         ParentFont = False
-        TabOrder = 1
+        TabOrder = 0
         OnClick = BtnBatalClick
       end
     end
@@ -322,7 +322,7 @@ object Frm_Pembelian: TFrm_Pembelian
         Height = 73
         Align = alBottom
         BorderOuter = fsNone
-        TabOrder = 0
+        TabOrder = 1
         DesignSize = (
           1076
           73)
@@ -444,7 +444,7 @@ object Frm_Pembelian: TFrm_Pembelian
         Height = 389
         Align = alClient
         ParentColor = False
-        TabOrder = 1
+        TabOrder = 0
         OnKeyPress = dbgbarangKeyPress
         ActiveView = NxReportGridView61
         ActiveViewIndex = 0

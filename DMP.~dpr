@@ -157,6 +157,5 @@ uses
 begin
   Application.Initialize;
   Application.CreateForm(TDM, DM);
-  Application.CreateForm(TFrm_InputMesin, Frm_InputMesin);
   Application.Run;
 end.

@@ -1,6 +1,6 @@
 object Frm_SalesOrder: TFrm_SalesOrder
-  Left = 68
-  Top = 7
+  Left = 96
+  Top = 10
   Align = alClient
   BorderStyle = bsNone
   Caption = 'Order Penjualan'
