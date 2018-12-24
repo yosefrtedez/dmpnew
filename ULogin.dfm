@@ -1,6 +1,6 @@
 object Frm_Login: TFrm_Login
-  Left = 430
-  Top = 245
+  Left = 436
+  Top = 250
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
   Caption = 'Enter name and password'

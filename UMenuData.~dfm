@@ -1,6 +1,6 @@
 object Frm_MenuData: TFrm_MenuData
-  Left = 392
-  Top = 151
+  Left = 96
+  Top = 98
   Align = alClient
   BorderStyle = bsNone
   Caption = 'Menu Data'

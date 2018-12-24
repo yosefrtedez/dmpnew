@@ -1,6 +1,6 @@
 object Frm_Main: TFrm_Main
-  Left = 202
-  Top = 135
+  Left = 35
+  Top = 139
   Width = 1348
   Height = 480
   Caption = 'Main'
@@ -856,7 +856,7 @@ object Frm_Main: TFrm_Main
       object RzToolButton1: TRzToolButton
         Left = 566
         Top = 4
-        ImageIndex = 4
+        ImageIndex = 8
         Images = DM.I48
         Layout = blGlyphTop
         Caption = 'Produksi'

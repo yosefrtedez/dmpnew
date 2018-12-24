@@ -1,6 +1,6 @@
 object Frm_MenuPenjualan: TFrm_MenuPenjualan
-  Left = 138
-  Top = 96
+  Left = 198
+  Top = 139
   Align = alClient
   BorderStyle = bsNone
   Caption = 'Menu Penjualan'

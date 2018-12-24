@@ -173,61 +173,9 @@ object Frm_InputMesin: TFrm_InputMesin
         Font.Style = []
         ParentFont = False
       end
-      object Label15: TLabel
-        Left = 7
-        Top = 152
-        Width = 99
-        Height = 15
-        Caption = 'Harga Jual Satuan'
-        Font.Charset = ANSI_CHARSET
-        Font.Color = clBlack
-        Font.Height = -13
-        Font.Name = 'Calibri'
-        Font.Style = []
-        ParentFont = False
-      end
-      object Label25: TLabel
-        Left = 169
-        Top = 152
-        Width = 3
-        Height = 15
-        Caption = ':'
-        Font.Charset = ANSI_CHARSET
-        Font.Color = clBlack
-        Font.Height = -13
-        Font.Name = 'Calibri'
-        Font.Style = []
-        ParentFont = False
-      end
       object Label26: TLabel
         Left = 169
         Top = 124
-        Width = 3
-        Height = 15
-        Caption = ':'
-        Font.Charset = ANSI_CHARSET
-        Font.Color = clBlack
-        Font.Height = -13
-        Font.Name = 'Calibri'
-        Font.Style = []
-        ParentFont = False
-      end
-      object Label5: TLabel
-        Left = 343
-        Top = 16
-        Width = 110
-        Height = 15
-        Caption = 'Harga Pokok Satuan'
-        Font.Charset = ANSI_CHARSET
-        Font.Color = clBlack
-        Font.Height = -13
-        Font.Name = 'Calibri'
-        Font.Style = []
-        ParentFont = False
-      end
-      object Label11: TLabel
-        Left = 505
-        Top = 16
         Width = 3
         Height = 15
         Caption = ':'
@@ -292,48 +240,6 @@ object Frm_InputMesin: TFrm_InputMesin
         Font.Style = []
         ParentFont = False
       end
-      object Label22: TLabel
-        Left = 343
-        Top = 124
-        Width = 98
-        Height = 15
-        Caption = 'Pajak Pembelian :'
-        Font.Charset = ANSI_CHARSET
-        Font.Color = clBlack
-        Font.Height = -13
-        Font.Name = 'Calibri'
-        Font.Style = []
-        ParentFont = False
-      end
-      object Label24: TLabel
-        Left = 343
-        Top = 151
-        Width = 96
-        Height = 15
-        Caption = 'Pajak Penjualan :'
-        Font.Charset = ANSI_CHARSET
-        Font.Color = clBlack
-        Font.Height = -13
-        Font.Name = 'Calibri'
-        Font.Style = []
-        ParentFont = False
-      end
-      object LPajakPembelian: TRzLabel
-        Left = 472
-        Top = 128
-        Width = 94
-        Height = 15
-        Caption = 'LPajakPembelian'
-        Visible = False
-      end
-      object LPajakPenjualan: TRzLabel
-        Left = 456
-        Top = 152
-        Width = 92
-        Height = 15
-        Caption = 'LPajakPenjualan'
-        Visible = False
-      end
       object txtStok: TRzNumericEdit
         Left = 179
         Top = 13
@@ -358,7 +264,7 @@ object Frm_InputMesin: TFrm_InputMesin
         FrameHotTrack = True
         FrameVisible = True
         TabOnEnter = True
-        TabOrder = 4
+        TabOrder = 3
         IntegersOnly = False
         DisplayFormat = '#,#0.##'
       end
@@ -374,37 +280,7 @@ object Frm_InputMesin: TFrm_InputMesin
         ReadOnly = True
         ReadOnlyColor = clYellow
         TabOnEnter = True
-        TabOrder = 5
-        DisplayFormat = '#,#0.##'
-      end
-      object txtjual: TRzNumericEdit
-        Left = 179
-        Top = 149
-        Width = 158
-        Height = 23
-        FocusColor = clInfoBk
-        FrameHotTrack = True
-        FrameVisible = True
-        TabOnEnter = True
-        TabOrder = 8
-        IntegersOnly = False
-        DisplayFormat = '#,#0.##'
-      end
-      object txthpp: TRzNumericEdit
-        Left = 529
-        Top = 13
-        Width = 110
-        Height = 23
-        TabStop = False
-        Color = clYellow
-        FocusColor = clInfoBk
-        FrameHotTrack = True
-        FrameVisible = True
-        ReadOnly = True
-        ReadOnlyColor = clYellow
-        TabOnEnter = True
-        TabOrder = 1
-        IntegersOnly = False
+        TabOrder = 4
         DisplayFormat = '#,#0.##'
       end
       object txtpo: TRzNumericEdit
@@ -419,7 +295,7 @@ object Frm_InputMesin: TFrm_InputMesin
         ReadOnly = True
         ReadOnlyColor = clYellow
         TabOnEnter = True
-        TabOrder = 2
+        TabOrder = 1
         DisplayFormat = '#,#0.##'
       end
       object txtso: TRzNumericEdit
@@ -434,28 +310,8 @@ object Frm_InputMesin: TFrm_InputMesin
         ReadOnly = True
         ReadOnlyColor = clYellow
         TabOnEnter = True
-        TabOrder = 3
+        TabOrder = 2
         DisplayFormat = '#,#0.##'
-      end
-      object txtpajakbeli: TRzButtonEdit
-        Left = 443
-        Top = 121
-        Width = 198
-        Height = 23
-        FrameHotTrack = True
-        FrameVisible = True
-        TabOrder = 6
-        AllowKeyEdit = False
-      end
-      object txtpajakjual: TRzButtonEdit
-        Left = 443
-        Top = 148
-        Width = 198
-        Height = 23
-        FrameHotTrack = True
-        FrameVisible = True
-        TabOrder = 7
-        AllowKeyEdit = False
       end
     end
   end

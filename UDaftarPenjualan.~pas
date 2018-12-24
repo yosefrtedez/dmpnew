@@ -983,7 +983,7 @@ begin
             Application.CreateForm(TFrm_Tanggal, Frm_Tanggal);
             if Frm_Tanggal.ShowModal = mrok then begin
               tanggal := QDetil.FieldValues['tglpenjualankirim'];
-              if Frm_Tanggal.dtpdari.Date <= tanggal  then begin
+              if tanggal <= Frm_Tanggal.dtpdari.Date  then begin
                 Screen.Cursor := crSQLWait;
                 try
                   dm.con.StartTransaction;

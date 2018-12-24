@@ -33,14 +33,8 @@ type
     txtMin: TRzNumericEdit;
     Label20: TLabel;
     Label10: TLabel;
-    Label15: TLabel;
-    Label25: TLabel;
     Label26: TLabel;
     txtbeli: TRzNumericEdit;
-    txtjual: TRzNumericEdit;
-    Label5: TLabel;
-    txthpp: TRzNumericEdit;
-    Label11: TLabel;
     Label1: TLabel;
     Label3: TLabel;
     Label7: TLabel;
@@ -50,12 +44,6 @@ type
     Label16: TLabel;
     txtso: TRzNumericEdit;
     txtkelompokbarang: TRzButtonEdit;
-    Label22: TLabel;
-    txtpajakbeli: TRzButtonEdit;
-    Label24: TLabel;
-    txtpajakjual: TRzButtonEdit;
-    LPajakPembelian: TRzLabel;
-    LPajakPenjualan: TRzLabel;
     Label29: TLabel;
     Label30: TLabel;
     txtfield1: TRzEdit;

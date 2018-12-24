@@ -1,6 +1,6 @@
 object Frm_PembelianRequest: TFrm_PembelianRequest
-  Left = 422
-  Top = 190
+  Left = 235
+  Top = 113
   Align = alClient
   BorderStyle = bsNone
   Caption = 'Permintaan Pembelian'

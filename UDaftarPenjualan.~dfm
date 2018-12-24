@@ -1,6 +1,6 @@
 object Frm_DaftarPengirimanBarang: TFrm_DaftarPengirimanBarang
-  Left = 293
-  Top = 138
+  Left = 96
+  Top = 98
   Align = alClient
   BorderStyle = bsNone
   Caption = 'Daftar Penjualan'
@@ -78,7 +78,7 @@ object Frm_DaftarPengirimanBarang: TFrm_DaftarPengirimanBarang
     Height = 41
     Align = alBottom
     BorderOuter = fsNone
-    TabOrder = 1
+    TabOrder = 3
     DesignSize = (
       1289
       41)
@@ -108,7 +108,7 @@ object Frm_DaftarPengirimanBarang: TFrm_DaftarPengirimanBarang
       Font.Name = 'Calibri'
       Font.Style = []
       ParentFont = False
-      TabOrder = 0
+      TabOrder = 1
       OnClick = BtnHapusClick
     end
     object BtnCetak: TRzBitBtn
@@ -168,7 +168,7 @@ object Frm_DaftarPengirimanBarang: TFrm_DaftarPengirimanBarang
       Font.Name = 'Calibri'
       Font.Style = []
       ParentFont = False
-      TabOrder = 1
+      TabOrder = 0
       Visible = False
       OnClick = BtnVariabelClick
     end
@@ -185,7 +185,7 @@ object Frm_DaftarPengirimanBarang: TFrm_DaftarPengirimanBarang
     Font.Name = 'Calibri'
     Font.Style = []
     ParentFont = False
-    TabOrder = 2
+    TabOrder = 1
     LookAndFeel.Kind = lfOffice11
     LookAndFeel.NativeStyle = False
     LookAndFeel.SkinName = 'Blue'
@@ -255,7 +255,7 @@ object Frm_DaftarPengirimanBarang: TFrm_DaftarPengirimanBarang
     Font.Name = 'Calibri'
     Font.Style = []
     ParentFont = False
-    TabOrder = 3
+    TabOrder = 2
     LookAndFeel.Kind = lfOffice11
     LookAndFeel.NativeStyle = False
     LookAndFeel.SkinName = 'Blue'
