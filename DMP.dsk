@@ -1,33 +1,42 @@
 [Closed Files]
-File_0=SourceModule,'C:\Users\Yosef\Documents\DevExpress VCL\ExpressPageControl 2\Sources\cxPC.pas',0,1,3536,46,3545,0,0
-File_1=SourceModule,'C:\Program Files (x86)\Borland\Delphi7\Component\ZEOSDBO-7.1.4-stable\src\dbc\ZDbcMySqlUtils.pas',0,1,418,27,421,0,0
-File_2=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelian.pas',0,1,526,14,533,1,0
-File_3=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UInputMesin.pas',0,1,163,66,165,0,0
-File_4=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UMenuProduksi.pas',0,1,83,48,90,0,0
-File_5=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UDaftarMesin.pas',0,1,1,33,5,0,0
-File_6=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPenjualanOrder.pas',0,1,1,46,11,1,0
-File_7=SourceModule,'C:\Users\Yosef\Documents\DevExpress VCL\ExpressLibrary\Sources\cxControls.pas',0,1,3383,15,3393,0,0
-File_8=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarBarang.pas',0,1,198,34,201,1,0
+File_0=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuData.pas',0,1,310,68,315,0,0
+File_1=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelianRequest.pas',0,1,377,3,389,0,0
+File_2=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarPenjualan.pas',0,1,423,1,434,1,0
+File_3=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPenjualan.pas',0,1,150,1,155,1,0
+File_4=SourceModule,'C:\Users\Yosef\Documents\DevExpress VCL\ExpressPageControl 2\Sources\cxPC.pas',0,1,3536,46,3545,0,0
+File_5=SourceModule,'C:\Program Files (x86)\Borland\Delphi7\Component\ZEOSDBO-7.1.4-stable\src\dbc\ZDbcMySqlUtils.pas',0,1,418,27,421,0,0
+File_6=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelian.pas',0,1,526,14,533,1,0
+File_7=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UMenuProduksi.pas',0,1,83,48,90,0,0
+File_8=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UDaftarMesin.pas',0,1,1,33,5,0,0
 
 [Modules]
-Module0=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPembelian.pas
-Module1=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP.dpr
-Module2=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMain.pas
-Module3=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPenjualan.pas
-Module4=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelianRequest.pas
-Module5=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuData.pas
-Module6=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarPenjualan.pas
-Module7=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas
-Module8=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas
-Count=9
+Module0=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UInputMesin.pas
+Module1=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UInputBarang.pas
+Module2=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarBarang.pas
+Module3=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas
+Module4=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMain.pas
+Module5=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPembelian.pas
+Module6=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas
+Module7=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP.dpr
+Count=8
 EditWindowCount=1
 
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPembelian.pas]
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UInputMesin.pas]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=0
 
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP.dpr]
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UInputBarang.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarBarang.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
@@ -35,24 +44,9 @@ FormOnTop=0
 [D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMain.pas]
 ModuleType=SourceModule
 FormState=1
-FormOnTop=0
+FormOnTop=1
 
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPenjualan.pas]
-ModuleType=SourceModule
-FormState=1
-FormOnTop=0
-
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelianRequest.pas]
-ModuleType=SourceModule
-FormState=0
-FormOnTop=0
-
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuData.pas]
-ModuleType=SourceModule
-FormState=1
-FormOnTop=0
-
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarPenjualan.pas]
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPembelian.pas]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=0
@@ -62,18 +56,18 @@ ModuleType=SourceModule
 FormState=1
 FormOnTop=0
 
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas]
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP.dpr]
 ModuleType=SourceModule
 FormState=0
-FormOnTop=1
+FormOnTop=0
 
 [C:\Program Files (x86)\Borland\Delphi7\Projects\ProjectGroup1.bpg]
 FormState=0
 FormOnTop=0
 
 [EditWindow0]
-ViewCount=9
-CurrentView=1
+ViewCount=8
+CurrentView=4
 View0=0
 View1=1
 View2=2
@@ -82,14 +76,13 @@ View4=4
 View5=5
 View6=6
 View7=7
-View8=8
 CodeExplorer=CodeExplorer@EditWindow0
 MessageView=MessageView@EditWindow0
 Create=1
 Visible=1
 State=0
-Left=70
-Top=89
+Left=250
+Top=121
 Width=1323
 Height=682
 MaxLeft=-1
@@ -102,7 +95,7 @@ LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000
 RightPanelSize=0
 BottomPanelSize=0
 BottomPanelClients=MessageView@EditWindow0
-BottomPanelData=00000400010000000B0000004D65737361676556696577060500000000000002550000000000000001000000000000000000000000010000000006050000000000000100000000060500000B0000004D65737361676556696577FFFFFFFF
+BottomPanelData=00000400010000000B0000004D657373616765566965771B0500000000000002550000000000000001000000000000000000000000010000000006050000000000000100000000060500000000000001000000001B0500000B0000004D65737361676556696577FFFFFFFF
 
 [View0]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP.dpr
@@ -113,9 +106,9 @@ LeftCol=1
 
 [View1]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPembelian.pas
-CursorX=24
-CursorY=8
-TopLine=343
+CursorX=18
+CursorY=347
+TopLine=238
 LeftCol=1
 
 [View2]
@@ -126,41 +119,34 @@ TopLine=869
 LeftCol=1
 
 [View3]
-Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuData.pas
-CursorX=68
-CursorY=315
-TopLine=310
-LeftCol=1
-
-[View4]
-Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelianRequest.pas
-CursorX=3
-CursorY=389
-TopLine=377
-LeftCol=1
-
-[View5]
-Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPenjualan.pas
-CursorX=1
-CursorY=155
-TopLine=150
-LeftCol=1
-
-[View6]
-Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarPenjualan.pas
-CursorX=1
-CursorY=434
-TopLine=423
-LeftCol=1
-
-[View7]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas
 CursorX=26
 CursorY=594
 TopLine=588
 LeftCol=1
 
-[View8]
+[View4]
+Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UInputMesin.pas
+CursorX=16
+CursorY=82
+TopLine=77
+LeftCol=1
+
+[View5]
+Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UInputBarang.pas
+CursorX=23
+CursorY=298
+TopLine=276
+LeftCol=1
+
+[View6]
+Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarBarang.pas
+CursorX=59
+CursorY=363
+TopLine=353
+LeftCol=1
+
+[View7]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas
 CursorX=6
 CursorY=156
@@ -201,7 +187,7 @@ Visible=1
 State=2
 Left=-8
 Top=0
-Width=1382
+Width=1928
 Height=123
 MaxLeft=-1
 MaxTop=-1
@@ -277,20 +263,20 @@ Create=1
 Visible=1
 State=0
 Left=-11
-Top=371
+Top=387
 Width=268
-Height=572
+Height=556
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=252
-ClientHeight=533
+ClientHeight=517
 TBDockHeight=413
 LRDockWidth=181
 Dockable=1
 SplitPos=131
 ArrangeBy=Name
 SelectedItem=Name
-ExpandedItems=BorderIcons,DataBinding,DataController,DataController.Summary,EditOptions,FilterRow,Font,Header,OptionsView,Padding,Properties,Summary,Value
+ExpandedItems=BorderIcons,DataBinding,DataController,DataController.Summary,EditOptions,FilterRow,Font,Font.Style,Header,OptionsView,Padding,Properties,Summary,Value
 HiddenCategories=
 
 [CallStackWindow]
@@ -387,11 +373,11 @@ Visible=0
 State=0
 Left=12
 Top=0
-Width=1274
+Width=1295
 Height=85
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=1274
+ClientWidth=1295
 ClientHeight=85
 TBDockHeight=85
 LRDockWidth=443

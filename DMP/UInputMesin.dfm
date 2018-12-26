@@ -240,79 +240,6 @@ object Frm_InputMesin: TFrm_InputMesin
         Font.Style = []
         ParentFont = False
       end
-      object txtStok: TRzNumericEdit
-        Left = 179
-        Top = 13
-        Width = 158
-        Height = 23
-        TabStop = False
-        Color = clYellow
-        FrameHotTrack = True
-        FrameVisible = True
-        ReadOnly = True
-        ReadOnlyColor = clYellow
-        TabOnEnter = True
-        TabOrder = 0
-        DisplayFormat = '#,#0.##'
-      end
-      object txtMin: TRzNumericEdit
-        Left = 179
-        Top = 94
-        Width = 158
-        Height = 23
-        FocusColor = clInfoBk
-        FrameHotTrack = True
-        FrameVisible = True
-        TabOnEnter = True
-        TabOrder = 3
-        IntegersOnly = False
-        DisplayFormat = '#,#0.##'
-      end
-      object txtbeli: TRzNumericEdit
-        Left = 179
-        Top = 121
-        Width = 158
-        Height = 23
-        TabStop = False
-        Color = clYellow
-        FrameHotTrack = True
-        FrameVisible = True
-        ReadOnly = True
-        ReadOnlyColor = clYellow
-        TabOnEnter = True
-        TabOrder = 4
-        DisplayFormat = '#,#0.##'
-      end
-      object txtpo: TRzNumericEdit
-        Left = 179
-        Top = 40
-        Width = 158
-        Height = 23
-        TabStop = False
-        Color = clYellow
-        FrameHotTrack = True
-        FrameVisible = True
-        ReadOnly = True
-        ReadOnlyColor = clYellow
-        TabOnEnter = True
-        TabOrder = 1
-        DisplayFormat = '#,#0.##'
-      end
-      object txtso: TRzNumericEdit
-        Left = 179
-        Top = 67
-        Width = 158
-        Height = 23
-        TabStop = False
-        Color = clYellow
-        FrameHotTrack = True
-        FrameVisible = True
-        ReadOnly = True
-        ReadOnlyColor = clYellow
-        TabOnEnter = True
-        TabOrder = 2
-        DisplayFormat = '#,#0.##'
-      end
     end
   end
   object RzPanel3: TRzPanel
@@ -475,27 +402,6 @@ object Frm_InputMesin: TFrm_InputMesin
       FrameVisible = True
       TabOnEnter = True
       TabOrder = 2
-    end
-    object txtkelompokbarang: TRzButtonEdit
-      Left = 179
-      Top = 90
-      Width = 158
-      Height = 23
-      FrameHotTrack = True
-      FrameVisible = True
-      TabOrder = 3
-      AllowKeyEdit = False
-    end
-    object txtfield1: TRzEdit
-      Left = 179
-      Top = 117
-      Width = 158
-      Height = 23
-      FocusColor = clInfoBk
-      FrameHotTrack = True
-      FrameVisible = True
-      TabOnEnter = True
-      TabOrder = 4
     end
     object txtsupcode: TRzEdit
       Left = 179

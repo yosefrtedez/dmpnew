@@ -198,6 +198,20 @@ begin
         end;
         Free;
       end;
+
+      with TZQuery.Create(Self) do begin
+        Connection := dm.con;
+        Close;
+        SQL.Text := format('select * from tbl_barang_spek where nobarang = %d',[nobarang]);
+        Open;
+        Insert;
+        FieldByName('nobarang').AsInteger := nobarang;
+        FieldByName('dimensi').AsString := Trim(txtDimensi.Text);
+        FieldByName('warna').AsString := Trim(txtWarna.Text);
+        Post;
+        Free;
+      end;
+
       RefreshQ;
     end;
   end;
@@ -206,6 +220,7 @@ end;
 procedure TFrm_DaftarBarang.BtnUbahClick(Sender: TObject);
 var
   i: Integer;
+  q: TZQuery;
 begin
   if QData.IsEmpty = null then Exit;
   Application.CreateForm(TFrm_InputBarang, Frm_InputBarang);
@@ -342,6 +357,18 @@ begin
       end;
       CekSO;
       CekPO;
+
+      q := TZQuery.Create(Self);
+      with q do begin
+        Connection := dm.con;
+        SQL.Text := format('SELECT * FROM tbl_barang_spek WHERE nobarang = %d',[QData.FieldByName('nobarang').AsInteger]);
+        Open;
+        txtDimensi.Text := FieldByName('dimensi').AsString;
+        txtWarna.Text := FieldByName('warna').AsString;
+        Close;
+      end;
+      q.Free;
+
       if Frm_InputBarang.ShowModal = mrok then begin
         Close;
         SQL.Clear;

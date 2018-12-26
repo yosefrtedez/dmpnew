@@ -29,24 +29,17 @@ type
     Label6: TLabel;
     Label4: TLabel;
     Label28: TLabel;
-    txtStok: TRzNumericEdit;
-    txtMin: TRzNumericEdit;
     Label20: TLabel;
     Label10: TLabel;
     Label26: TLabel;
-    txtbeli: TRzNumericEdit;
     Label1: TLabel;
     Label3: TLabel;
     Label7: TLabel;
     Label8: TLabel;
-    txtpo: TRzNumericEdit;
     Label9: TLabel;
     Label16: TLabel;
-    txtso: TRzNumericEdit;
-    txtkelompokbarang: TRzButtonEdit;
     Label29: TLabel;
     Label30: TLabel;
-    txtfield1: TRzEdit;
     cbaktif: TRzCheckBox;
     Label17: TLabel;
     Label18: TLabel;
@@ -54,12 +47,13 @@ type
     procedure BtCloseClick(Sender: TObject);
     procedure BtSaveClick(Sender: TObject);
   private
-    { Private declarations }
+    mJenis: string;
   public
     { Public declarations }
     procedure ClearText;
     procedure CekSO;
     procedure CekPO;
+    public property jenis: string write mJenis;
   end;
 
 var
@@ -84,7 +78,17 @@ begin
 end;
 
 procedure TFrm_InputMesin.BtSaveClick(Sender: TObject);
+var
+  q: TZQuery;
 begin
+  if Trim(txtkode.text) = '' then begin
+    MessageDlg('Kode Mesin: harus diisi.',mtError, [mbOK], 0);
+    txtKode.SetFocus;
+  end
+  else begin
+    q := TZQuery.Create(Self);
+  end;
+
   {
   if txtNama.Text = '' then begin
     MessageDlg('Nama : harus diisi',mtError,[mbOK],0);

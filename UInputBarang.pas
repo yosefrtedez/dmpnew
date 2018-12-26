@@ -97,7 +97,6 @@ type
     TabSheet4: TRzTabSheet;
     Label33: TLabel;
     Label34: TLabel;
-    RzNumericEdit1: TRzNumericEdit;
     Label35: TLabel;
     Label36: TLabel;
     RzNumericEdit2: TRzNumericEdit;
@@ -133,7 +132,6 @@ type
     RzNumericEdit12: TRzNumericEdit;
     Label57: TLabel;
     Label58: TLabel;
-    RzNumericEdit13: TRzNumericEdit;
     Label59: TLabel;
     Label60: TLabel;
     RzNumericEdit14: TRzNumericEdit;
@@ -149,6 +147,8 @@ type
     Label67: TLabel;
     Label68: TLabel;
     RzNumericEdit18: TRzNumericEdit;
+    txtDimensi: TRzEdit;
+    txtWarna: TRzEdit;
     procedure BtCloseClick(Sender: TObject);
     procedure BtSaveClick(Sender: TObject);
     procedure txtakunhppButtonClick(Sender: TObject);

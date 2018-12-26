@@ -97,10 +97,10 @@ object Frm_InputBarang: TFrm_InputBarang
     Top = 177
     Width = 860
     Height = 214
-    ActivePage = TabSheet1
+    ActivePage = TabSheet4
     ActivePageDefault = TabSheet1
     Align = alClient
-    TabIndex = 0
+    TabIndex = 2
     TabOrder = 2
     TabOrientation = toBottom
     TabStyle = tsRoundCorners
@@ -1027,17 +1027,6 @@ object Frm_InputBarang: TFrm_InputBarang
         Font.Style = []
         ParentFont = False
       end
-      object RzNumericEdit1: TRzNumericEdit
-        Left = 180
-        Top = 7
-        Width = 100
-        Height = 23
-        Ctl3D = True
-        FrameVisible = True
-        ParentCtl3D = False
-        TabOrder = 0
-        DisplayFormat = ',0;(,0)'
-      end
       object RzNumericEdit2: TRzNumericEdit
         Left = 180
         Top = 34
@@ -1159,17 +1148,6 @@ object Frm_InputBarang: TFrm_InputBarang
         TabOrder = 16
         DisplayFormat = ',0;(,0)'
       end
-      object RzNumericEdit13: TRzNumericEdit
-        Left = 746
-        Top = 7
-        Width = 100
-        Height = 23
-        Ctl3D = True
-        FrameVisible = True
-        ParentCtl3D = False
-        TabOrder = 2
-        DisplayFormat = ',0;(,0)'
-      end
       object RzNumericEdit14: TRzNumericEdit
         Left = 746
         Top = 34
@@ -1224,6 +1202,28 @@ object Frm_InputBarang: TFrm_InputBarang
         ParentCtl3D = False
         TabOrder = 17
         DisplayFormat = ',0;(,0)'
+      end
+      object txtDimensi: TRzEdit
+        Left = 180
+        Top = 7
+        Width = 101
+        Height = 23
+        FocusColor = clInfoBk
+        FrameHotTrack = True
+        FrameVisible = True
+        TabOnEnter = True
+        TabOrder = 0
+      end
+      object txtWarna: TRzEdit
+        Left = 746
+        Top = 7
+        Width = 101
+        Height = 23
+        FocusColor = clInfoBk
+        FrameHotTrack = True
+        FrameVisible = True
+        TabOnEnter = True
+        TabOrder = 2
       end
     end
     object TabSheet3: TRzTabSheet
