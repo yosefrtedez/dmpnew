@@ -1,6 +1,6 @@
 object Frm_MenuPembelian: TFrm_MenuPembelian
-  Left = 278
-  Top = 170
+  Left = 280
+  Top = 172
   Align = alClient
   BorderStyle = bsNone
   Caption = 'Menu Pembelian'

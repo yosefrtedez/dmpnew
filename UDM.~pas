@@ -628,6 +628,17 @@ begin
   with TZQuery.Create(Self) do begin
     Connection := con;
     Close;
+    SQL.Text := format('select * from tbl_referensinomaster where jenis=''%s''',[AJenis]);
+    Open;
+    noid := FieldByName('nomor').AsInteger;
+    Result := noid;
+    Close;
+  end;
+
+  {
+  with TZQuery.Create(Self) do begin
+    Connection := con;
+    Close;
     SQL.Clear;
     SQL.Text := 'select nomor from _tblnomor';
     Open;
@@ -635,6 +646,8 @@ begin
     Result := noid;
     Close;
   end;
+  }
+  
   {with TZQuery.Create(Self) do begin
     Connection := con;
     Close;

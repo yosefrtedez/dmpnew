@@ -1,57 +1,28 @@
 [Closed Files]
-File_0=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuData.pas',0,1,310,68,315,0,0
-File_1=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelianRequest.pas',0,1,377,3,389,0,0
-File_2=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarPenjualan.pas',0,1,423,1,434,1,0
-File_3=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPenjualan.pas',0,1,150,1,155,1,0
-File_4=SourceModule,'C:\Users\Yosef\Documents\DevExpress VCL\ExpressPageControl 2\Sources\cxPC.pas',0,1,3536,46,3545,0,0
-File_5=SourceModule,'C:\Program Files (x86)\Borland\Delphi7\Component\ZEOSDBO-7.1.4-stable\src\dbc\ZDbcMySqlUtils.pas',0,1,418,27,421,0,0
-File_6=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelian.pas',0,1,526,14,533,1,0
-File_7=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UMenuProduksi.pas',0,1,83,48,90,0,0
-File_8=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UDaftarMesin.pas',0,1,1,33,5,0,0
+File_0=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas',0,1,143,6,156,0,0
+File_1=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarBarang.pas',0,1,353,59,363,1,0
+File_2=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPembelian.pas',0,1,238,37,253,1,0
+File_3=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UInputPenerimaanLain.pas',0,1,251,1,253,1,0
+File_4=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UInputMesin.pas',0,1,77,16,82,1,0
+File_5=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UInputBarang.pas',0,1,276,4,281,1,0
+File_6=SourceModule,'C:\Program Files (x86)\Borland\Delphi7\Component\ZEOSDBO-7.1.4-stable\src\dbc\ZDbcMySqlUtils.pas',0,1,418,50,431,0,0
+File_7=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuData.pas',0,1,310,68,315,0,0
+File_8=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UPembelianRequest.pas',0,1,377,3,389,0,0
+File_9=SourceModule,'D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarPenjualan.pas',0,1,423,1,434,1,0
 
 [Modules]
-Module0=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UInputMesin.pas
-Module1=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UInputBarang.pas
-Module2=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarBarang.pas
-Module3=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas
-Module4=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMain.pas
-Module5=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPembelian.pas
-Module6=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas
-Module7=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP.dpr
-Count=8
+Module0=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas
+Module1=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMain.pas
+Module2=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP.dpr
+Count=3
 EditWindowCount=1
 
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UInputMesin.pas]
+[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas]
 ModuleType=SourceModule
 FormState=1
-FormOnTop=0
-
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UInputBarang.pas]
-ModuleType=SourceModule
-FormState=1
-FormOnTop=0
-
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarBarang.pas]
-ModuleType=SourceModule
-FormState=1
-FormOnTop=0
-
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas]
-ModuleType=SourceModule
-FormState=0
 FormOnTop=0
 
 [D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMain.pas]
-ModuleType=SourceModule
-FormState=1
-FormOnTop=1
-
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPembelian.pas]
-ModuleType=SourceModule
-FormState=1
-FormOnTop=0
-
-[D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas]
 ModuleType=SourceModule
 FormState=1
 FormOnTop=0
@@ -66,23 +37,18 @@ FormState=0
 FormOnTop=0
 
 [EditWindow0]
-ViewCount=8
-CurrentView=4
+ViewCount=3
+CurrentView=2
 View0=0
 View1=1
 View2=2
-View3=3
-View4=4
-View5=5
-View6=6
-View7=7
 CodeExplorer=CodeExplorer@EditWindow0
 MessageView=MessageView@EditWindow0
 Create=1
 Visible=1
 State=0
-Left=250
-Top=121
+Left=279
+Top=132
 Width=1323
 Height=682
 MaxLeft=-1
@@ -93,9 +59,9 @@ LeftPanelSize=140
 LeftPanelClients=CodeExplorer@EditWindow0
 LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000000C000000436F64654578706C6F726572FFFFFFFF
 RightPanelSize=0
-BottomPanelSize=0
+BottomPanelSize=85
 BottomPanelClients=MessageView@EditWindow0
-BottomPanelData=00000400010000000B0000004D657373616765566965771B0500000000000002550000000000000001000000000000000000000000010000000006050000000000000100000000060500000000000001000000001B0500000B0000004D65737361676556696577FFFFFFFF
+BottomPanelData=00000400000000001B0500000000000002550000000000000001000000000000000000000000010000000006050000000000000100000000060500000000000001000000001B0500000000000001000000001B0500000000000001000000001B0500000B0000004D65737361676556696577FFFFFFFF
 
 [View0]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP.dpr
@@ -105,52 +71,17 @@ TopLine=1
 LeftCol=1
 
 [View1]
-Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMenuPembelian.pas
-CursorX=18
-CursorY=347
-TopLine=238
+Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMain.pas
+CursorX=1
+CursorY=891
+TopLine=891
 LeftCol=1
 
 [View2]
-Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UMain.pas
-CursorX=8
-CursorY=882
-TopLine=869
-LeftCol=1
-
-[View3]
 Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDM.pas
-CursorX=26
-CursorY=594
-TopLine=588
-LeftCol=1
-
-[View4]
-Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\DMP\UInputMesin.pas
-CursorX=16
-CursorY=82
-TopLine=77
-LeftCol=1
-
-[View5]
-Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UInputBarang.pas
-CursorX=23
-CursorY=298
-TopLine=276
-LeftCol=1
-
-[View6]
-Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\UDaftarBarang.pas
-CursorX=59
-CursorY=363
-TopLine=353
-LeftCol=1
-
-[View7]
-Module=D:\108 JSP\My Project\05. Felgito\07. NEW VERSION\ULogin.pas
-CursorX=6
-CursorY=156
-TopLine=143
+CursorX=11
+CursorY=797
+TopLine=793
 LeftCol=1
 
 [Watches]
@@ -358,18 +289,18 @@ State=0
 Left=0
 Top=12
 Width=140
-Height=631
+Height=543
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=140
-ClientHeight=631
+ClientHeight=543
 TBDockHeight=305
 LRDockWidth=140
 Dockable=1
 
 [MessageView@EditWindow0]
 Create=1
-Visible=0
+Visible=1
 State=0
 Left=12
 Top=0

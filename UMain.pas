@@ -878,7 +878,7 @@ var
 begin
   if not DM.CekTabOpen('Produksi') then begin
     f := TFrm_MenuProduksi.Create(Self);
-    
+
     f.ManualDock(PGMain, PGMain, alClient);
     f.Show;
 

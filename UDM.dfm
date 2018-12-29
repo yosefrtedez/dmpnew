@@ -9,7 +9,6 @@ object DM: TDM
     ControlsCodePage = cGET_ACP
     AutoEncodeStrings = False
     TransactIsolationLevel = tiReadCommitted
-    Connected = True
     DesignConnection = True
     HostName = 'localhost'
     Port = 3308
